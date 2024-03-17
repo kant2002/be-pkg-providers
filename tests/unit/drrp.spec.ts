@@ -1,8 +1,8 @@
 import { mock } from 'jest-mock-extended'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { ExternalCommunicator, ExternalEvent } from '@diia-inhouse/diia-queue'
-import { InternalServerError, ServiceUnavailableError } from '@diia-inhouse/errors'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { ExternalCommunicator, ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { InternalServerError, ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
 
 import {
     DcSbjType,

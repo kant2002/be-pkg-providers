@@ -1,4 +1,4 @@
-import { ValidationSchema } from '@diia-inhouse/validators'
+import { ValidationSchema } from '@kant2002-diia-inhouse/validators'
 
 import { PublicServiceDrrpExtGroupResponse } from '../../interfaces/providers/drrp/publicServiceDrrpExtGroup'
 import { PublicServiceDrrpExtSearchResponse } from '../../interfaces/providers/drrp/publicServiceDrrpExtSearch'

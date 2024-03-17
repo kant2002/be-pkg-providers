@@ -2,10 +2,10 @@ import { flatMap, max, uniq } from 'lodash'
 import Mexp from 'math-expression-evaluator'
 import { SetRequired } from 'type-fest'
 
-import { ExternalCommunicator, ExternalEvent } from '@diia-inhouse/diia-queue'
-import { ReceiveDirectOps } from '@diia-inhouse/diia-queue/dist/types/interfaces/externalCommunicator'
-import { InternalServerError, ServiceUnavailableError } from '@diia-inhouse/errors'
-import { Logger } from '@diia-inhouse/types'
+import { ExternalCommunicator, ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { ReceiveDirectOps } from '@kant2002-diia-inhouse/diia-queue/dist/types/interfaces/externalCommunicator'
+import { InternalServerError, ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import { DrrpConfig, DrrpRequestOptions, OwnershipType, PropertyCommonKind, PropertyOwnerInfo } from '../../interfaces/providers/drrp'
 import {
